@@ -8,17 +8,16 @@ import org.apache.spark.sql.SparkSession
 
     
     // Load the data stored in LIBSVM format as a DataFrame.
-    val data = spark.read.format("libsvm").load("sample_libsvm_data.txt")
+    val data = spark.read.format("libsvm").load("iris_libsvm.txt")
    
     // Split the data into training and test sets (30% held out for testing)
     val Array(trainingData, testData) = data.randomSplit(Array(0.7, 0.3), seed = 2229L)
 
 
-    trainingData.filter($"features" > 0.0.toDouble).show()
+    trainingData.show()
 
     // Train a NaiveBayes model.
-    val model = new NaiveBayes()
-    model.fit(trainingData)
+    val model = new NaiveBayes().fit(trainingData)
 
     // Select example rows to display.
     val predictions = model.transform(testData)
@@ -29,6 +28,25 @@ import org.apache.spark.sql.SparkSession
     val accuracy = evaluator.evaluate(predictions)
     
     println(s"Test set accuracy = $accuracy")
-    
 
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+println("//////							     ")
+println("//    //      ////	   ||//    //||")
+println("//////	     //  //	   || // //  ||")
+println("//    //    //    //	   ||  //    ||")
+println("//    //   //////////      ||        ||")
+println("//    //  //        //     ||	     ||")
+println("//////   //          //    ||	     || ")
     
