@@ -84,3 +84,10 @@ x = a (f; P) = 0
 -The presumption of Naive independence most likely does not reflect how the data is in the real world.
 
 -When the test data set has a characteristic that has not been observed in the training set, the model will assign a probability of zero and it will be useless to make predictions.
+
+# Aplications
+-Spam detector (email, sms)
+
+-Recommendation System
+
+-Classification of galaxies
