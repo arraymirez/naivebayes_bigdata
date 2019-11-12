@@ -42,7 +42,9 @@ f (x) = P ^ x (1-P) ^ 1-x
 Bernoulli's distribution has 3 possible values:
 
 x = 1 f (x; P) = P
+
 x = 0 f (x; Q) = Q
+
 x = a (f; P) = 0
 
 # Advantages
