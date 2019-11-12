@@ -97,6 +97,6 @@ Bernoulli's distribution has 3 possible values:
 
 -Classification of galaxies
 
-# Conclusion
+# Summary
 The Naive Bayes algorithm is mainly used in analysis, spam filtering, recommendation systems, etc.
 They are fast and easy to implement, what the difference over other algorithms is their ability to handle an extremely large      number of features, working well even with the presence of irrelevant features and not affected by them, rarely over-adjusts the data.
