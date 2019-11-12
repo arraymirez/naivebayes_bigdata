@@ -16,8 +16,29 @@ In probability theory, it is a proposition raised by the English mathematician T
   
  ![Bayes Theorem](https://miro.medium.com/max/1468/1*LB-G6WBuswEfpg20FMighA.png) 
  
- # Example
- 
+# Example
+Consider the case of two colleagues who work in the same office: Alicia and Bruno. We know that:
+
+Alicia comes to the office 3 days a week.
+
+Bruno comes to the office 1 day a week.
+
+P(Alicia) = 3/4 = 0.75
+
+P(Bruno) = 1/4 = 0.25
+
+We are in the office and we see someone passing by in front of us very fast, so fast that we do not know if it is Alicia or Bruno.
+
+Who did we see happen?
+
+When we saw the person go by, we saw that he or she was wearing a red jacket. We also know the following:
+
+Alicia wears red 2 times a week.
+Bruno wears red 3 times a week.
+
+![Example] (https://miro.medium.com/max/2000/1*2U7-HsCsnHAW5m5JhUDyCg.png)
+
+
  # Bayesian Classifiers: Multinomial
 The Naive Bayes Multinomial model considers the frequency of occurrence of each term in xt documents instead of a binary occurrence.
 
