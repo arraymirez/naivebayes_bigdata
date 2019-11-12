@@ -12,64 +12,69 @@ The naive Bayes formulation drastically reduces the complexity of the Bayesian c
 # Bayes Theorem
 In probability theory, it is a proposition raised by the English mathematician Thomas Bayes and published posthumously in 1763, which expresses the conditional probability of:
 
-  "A random event A given B in terms of the conditional probability distribution of event B given A and the marginal probability distribution of only A"
+  *"A random event A given B in terms of the conditional probability distribution of event B given A and the marginal probability distribution of only A"*
   
  ![Bayes Theorem](https://miro.medium.com/max/1468/1*LB-G6WBuswEfpg20FMighA.png) 
  
 # Example
-Consider the case of two colleagues who work in the same office: Alicia and Bruno. We know that:
+Consider the case of two colleagues who work in the same office: 
+Alicia and Bruno.
 
-Alicia comes to the office 3 days a week.
+We know that:
 
-Bruno comes to the office 1 day a week.
+**Alicia comes to the office 3 days a week.**
 
-P(Alicia) = 3/4 = 0.75
+**Bruno comes to the office 1 day a week.**
 
-P(Bruno) = 1/4 = 0.25
+We can calculate the probability of each as follow:
+
+*P(Alicia) = 3/4 = 0.75*
+
+*P(Bruno) = 1/4 = 0.25*
 
 We are in the office and we see someone passing by in front of us very fast, so fast that we do not know if it is Alicia or Bruno.
 
-Who did we see happen?
+Who did we see passing?
 
 ![Examples](https://miro.medium.com/max/970/1*dz1jJM2c1lSnUn8WGxjSmw.png)
 
 When we saw the person go by, we saw that he or she was wearing a red jacket. We also know the following:
 
-Alicia wears red 2 times a week.
-Bruno wears red 3 times a week.
+**Alicia wears red 2 times a week.**
+**Bruno wears red 3 times a week.**
 
 ![Examples2](https://miro.medium.com/max/2000/1*2U7-HsCsnHAW5m5JhUDyCg.png) 
 
 
 
  # Bayesian Classifiers: Multinomial
-The Naive Bayes Multinomial model considers the frequency of occurrence of each term in xt documents instead of a binary occurrence.
+The Naive Bayes Multinomial model considers the frequency of occurrence of each term in *Xt* documents instead of a binary occurrence.
+This means that also it has to known how many times an event is happening to make a valid classification.
 
 It is mainly used for document classification problems, that is, if a document belongs to the category of sports, politics, technology, etc.
 
 The characteristics/predictors used by the classifier are the frequency of the words present in the document.
 
-Naive Bayes is one of the simplest and most used probabilistic models in text classification because it produces results as good as other sophisticated models.
-It is based on the application of the Bayes Rule to predict conditional probability
+
 
 # Bayesian Classifiers: Bernoulli Distribution
 It corresponds to a discrete probability distribution, used in dichotomous experiments, that is, with two possible outcomes, success or failure.
 
 Considering:
-x: Success variable #
+*x: Success variable #
 P: Probability of success
-Q: Probability of Failure
+Q: Probability of Failure*
 
 Probability Function:
-f (x) = P ^ x (1-P) ^ 1-x
+*f (x) = P ^ x (1-P) ^ 1-x*
 
 Bernoulli's distribution has 3 possible values:
 
-x = 1 f (x; P) = P
+*x = 1 f (x; P) = P*
 
-x = 0 f (x; Q) = Q
+*x = 0 f (x; Q) = Q*
 
-x = a (f; P) = 0
+*x = a (f; P) = 0*
 
 # Advantages
 -It is an easy and fast way to predict classes, for binary and multiclass classification problems.
