@@ -36,7 +36,8 @@ When we saw the person go by, we saw that he or she was wearing a red jacket. We
 Alicia wears red 2 times a week.
 Bruno wears red 3 times a week.
 
-![Example] (https://miro.medium.com/max/2000/1*2U7-HsCsnHAW5m5JhUDyCg.png)
+![Examples](https://miro.medium.com/max/2000/1*2U7-HsCsnHAW5m5JhUDyCg.png) 
+
 
 
  # Bayesian Classifiers: Multinomial
