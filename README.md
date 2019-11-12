@@ -31,12 +31,14 @@ We are in the office and we see someone passing by in front of us very fast, so 
 
 Who did we see happen?
 
+![Examples](https://miro.medium.com/max/970/1*dz1jJM2c1lSnUn8WGxjSmw.png)
+
 When we saw the person go by, we saw that he or she was wearing a red jacket. We also know the following:
 
 Alicia wears red 2 times a week.
 Bruno wears red 3 times a week.
 
-![Examples](https://miro.medium.com/max/2000/1*2U7-HsCsnHAW5m5JhUDyCg.png) 
+![Examples2](https://miro.medium.com/max/2000/1*2U7-HsCsnHAW5m5JhUDyCg.png) 
 
 
 
