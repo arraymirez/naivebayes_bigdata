@@ -104,5 +104,5 @@ They are fast and easy to implement, what the difference over other algorithms i
 
 # Code
 
-A Scala example code can be found in our [Big Data Repo]:https://github.com/arraymirez/naivebayes_bigdata/blob/Naive_Bayes-Doc/naivebayes.scala
+A Scala example code can be found in our [Big Data Repo]: https://github.com/arraymirez/naivebayes_bigdata/blob/Naive_Bayes-Doc/naivebayes.scala
 
