@@ -19,4 +19,25 @@ In probability theory, it is a proposition raised by the English mathematician T
  # Example
  
  # Bayesian Classifiers: Multinomial
- 
+The Naive Bayes Multinomial model considers the frequency of occurrence of each term in xt documents instead of a binary occurrence.
+
+It is mainly used for document classification problems, that is, if a document belongs to the category of sports, politics, technology, etc.
+
+The characteristics/predictors used by the classifier are the frequency of the words present in the document.
+
+# Bayesian Classifiers: Bernoulli Distribution
+It corresponds to a discrete probability distribution, used in dichotomous experiments, that is, with two possible outcomes, success or failure.
+
+Considering:
+x: Success variable #
+P: Probability of success
+Q: Probability of Failure
+
+Probability Function:
+f (x) = P ^ x (1-P) ^ 1-x
+
+Bernoulli's distribution has 3 possible values:
+x = 1 f (x; P) = P
+x = 0 f (x; Q) = Q
+x = a (f; P) = 0
+
